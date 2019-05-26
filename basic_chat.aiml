@@ -1,0 +1,39 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- basic_chat.aiml -->
+    <category>
+        <pattern>HELLO</pattern>
+        <template>hello friend!</template>
+    </category>  
+    <category>
+        <pattern>HI</pattern>
+        <template>hello friend!</template>
+    </category>
+    <category>
+        <pattern>WHO ARE YOU</pattern>
+        <template>I am a chatbot!</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE YOU MADE OF</pattern>
+        <template>I am made of bits !</template>
+    </category>
+    <category>
+        <pattern>MY NAME IS *</pattern>
+        <template>hi <star index='1' /> , nice meeting you</template>
+    </category>
+    <category>
+        <pattern>SORRY</pattern>
+        <template>NeverMind!</template>
+    </category>
+        <category>
+        <pattern>THANKS</pattern>
+        <template>Welcome</template>
+    </category>
+    <category>
+    <pattern>WHAT CAN YOU DO</pattern>
+    <template>I can help you out with the FAQs,feel free to ask</template>
+    </category>
+    <category>
+        <pattern>BYE</pattern>
+        <template>Goodbye friend!</template>
+    </category>
+</aiml>

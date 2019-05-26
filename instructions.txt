@@ -1,0 +1,4 @@
+Run the chatbot.py in your terminal
+The program can answer basic greeting using AIML
+python-aiml is the only package required which can be installed using the command
+'pip install python-aiml'
